@@ -1,6 +1,6 @@
 <?php
  $content = array (
-  2717501C_1000 => {"code":10000,"status":0,"result":[]}
+  1 => "{"code":10000,"status":0,"result":[]}"
  );
  $modelClientId = $_GET('modelClientId')
 ?>
@@ -14,7 +14,7 @@
    <?php
     foreach ($content as $key => $value)
     {
-     echo "<a href=\ "index.php?modelClientId=$key\">$value</a>";
+     echo "<a href=\ "index.html?modelClientId=$key\">$value</a>";
     }
    ?>
    <?php echo $content($modelClientId); ?>
