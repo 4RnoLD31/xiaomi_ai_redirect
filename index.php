@@ -17,5 +17,6 @@
      echo "<a href=\ "index.php?modelClientId=$key\">$value</a>";
     }
    ?>
+   <?php echo $content($modelClientId); ?>
   </body>
 </html>
